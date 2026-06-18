@@ -57,7 +57,7 @@ if (contactForm) {
         const successMessage = contactForm.querySelector(".form-success");
 
         if (successMessage) {
-            successMessage.textContent = "Bedankt! Je demo-aanvraag is netjes ontvangen.";
+            successMessage.textContent = "Bedankt! Je aanvraag is goed ontvangen. We nemen snel contact met je op.";
         }
 
         contactForm.reset();
