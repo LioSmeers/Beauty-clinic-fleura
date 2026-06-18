@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Beauty Clinic Fleur</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <a class="logo" href="index.html"><span>Fleur</span><small>Beauty Clinic</small></a>
+        <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+        <nav id="site-nav" class="site-nav" aria-label="Hoofdnavigatie">
+            <a href="index.html">Home</a>
+            <a href="behandelingen.html">Behandelingen</a>
+            <a href="prijzen.html">Prijzen</a>
+            <a href="over-ons.html">Over ons</a>
+            <a class="active" href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero compact">
+            <p class="eyebrow">We horen graag van je</p>
+            <h1>Contact</h1>
+            <p>Gebruik de fictieve gegevens hieronder of stuur een bericht via het formulier.</p>
+        </section>
+
+        <section class="contact-layout">
+            <div class="contact-info">
+                <h2>Beauty Clinic Fleur</h2>
+                <p><strong>Adres</strong><br>Bloesemlaan 24<br>9000 Gent</p>
+                <p><strong>Telefoon</strong><br>+32 9 555 12 34</p>
+                <p><strong>E-mail</strong><br>hello@beautyclinicfleur.be</p>
+                <p><strong>Openingsuren</strong><br>Ma - vr: 09:00 - 18:00<br>Za: 10:00 - 16:00<br>Zo: gesloten</p>
+            </div>
+
+            <form class="contact-form" action="#" method="post">
+                <label for="name">Naam</label>
+                <input id="name" name="name" type="text" placeholder="Jouw naam">
+
+                <label for="email">E-mail</label>
+                <input id="email" name="email" type="email" placeholder="jij@example.com">
+
+                <label for="treatment">Gewenste behandeling</label>
+                <select id="treatment" name="treatment">
+                    <option>Glow Facial</option>
+                    <option>Brow Styling</option>
+                    <option>Fresh Manicure</option>
+                    <option>Soft Glam Make-up</option>
+                    <option>Ik weet het nog niet</option>
+                </select>
+
+                <label for="message">Bericht</label>
+                <textarea id="message" name="message" rows="5" placeholder="Waarmee kunnen we helpen?"></textarea>
+
+                <button class="button primary" type="submit">Verstuur aanvraag</button>
+                <p class="form-note">Dit formulier is demonstratief en verstuurt geen echte berichten.</p>
+                <p class="form-success" aria-live="polite"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div><strong>Beauty Clinic Fleur</strong><p>Fictieve contactgegevens voor deze voorbeeldwebsite.</p></div>
+        <div><p>Bloesemlaan 24, 9000 Gent</p><p>+32 9 555 12 34</p></div>
+    </footer>
+</body>
+
+</html>
